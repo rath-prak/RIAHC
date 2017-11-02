@@ -10,11 +10,25 @@ import Foundation from 'foundation-sites';
 //import './lib/foundation-explicit-pieces';
 
 
-var cssSelector = anime({
-  targets: '.test-box ',
-  translateX: 250,
-  duration: 12000,
-  loop: true,
-});
+var toggleBtn = document.querySelector('.toggle-nav');
+var toggleClose = document.querySelector('.toggle-close');
+
+toggleBtn.onclick = function(){
+    anime({
+      targets: '.overlay-nav',
+      translateY: 0,
+      duration: 4000,
+    });
+}
+
+toggleClose.onclick = function(){
+    anime({
+      targets: '.overlay-nav',
+      translateY: '-100%',
+      duration: 4000,
+    });
+}
+
+
 
 $(document).foundation();
