@@ -1,3 +1,7 @@
 //Custom fonts
 @font-face { font-family: roboto_condense; src:  url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700');}
+@font-face { font-family: abril_heading; src: url('../fonts/Abril_Text_Bold.otf');
+}
+
 $condense: roboto_condense, sans-serif;
+$main_heading: abril_heading, serif;

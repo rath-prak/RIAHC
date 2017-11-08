@@ -1,10 +1,9 @@
+
 .navbar {
-  background: $black;
 
   .navbar-wrapper {
     display: flex;
     flex-direction: column;
-    // padding: rem-calc(5);
   }
 
   .logo-wrapper {
@@ -13,11 +12,12 @@
     align-items: center;
     .nav-logo {
       padding: rem-calc(15);
+      width: rem-calc(180);
     }
     .toggle-nav {
       padding: rem-calc(15);
       font-size: rem-calc(30);
-      color: $white;
+      color: $black;
     }
   }
 
@@ -41,6 +41,8 @@
 /* Medium and up */
 @media screen and (min-width: rem-calc(950)) {
   .navbar {
+    display: flex;
+    justify-content: center;
 
     .toggle-nav {
       display: none;
@@ -49,6 +51,7 @@
     .navbar-wrapper {
       flex-direction: row;
       justify-content: space-between;
+      width: $grid-container;
     }
 
     ul{
@@ -60,7 +63,7 @@
         padding-left: rem-calc(30);
       }
       a {
-        color: #fff;
+        color: $black;
         font-size: rem-calc(14);
         font-family: $condense;
         font-weight: 700;

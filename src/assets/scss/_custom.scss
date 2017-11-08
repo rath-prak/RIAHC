@@ -3,3 +3,21 @@
 
 // Components
 @import './components/navigation/main-navigation';
+
+// Home Page
+@import './components/home-hero';
+@import './components/feature-section';
+
+
+//buttoms on home page
+.feature-btn {
+ border: 1px solid $white;
+ padding: rem-calc(10) rem-calc(20);
+ color: $white;
+ border-radius: 100px;
+ cursor: pointer;
+}
+.feature-btn:hover {
+  background: $white;
+  color: #cc0000;
+}

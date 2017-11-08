@@ -1,0 +1,17 @@
+.hero-wrapper {
+  background: url(../../assets/img/hero-test.jpg) no-repeat center center;
+  background-size: cover;
+  width: 100%;
+
+  .main-hero {
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    h2 {
+      font-family: $main_heading;
+      color: $white;
+      font-weight: 700;
+      line-height: 2.6rem;
+    }
+  }
+}
