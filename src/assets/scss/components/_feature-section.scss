@@ -1,4 +1,7 @@
 .feature-section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
   .box-small {
     height: rem-calc(350);
     background: #cc0000;
@@ -10,7 +13,7 @@
       margin-bottom: rem-calc(30);
     }
     p {
-      font-size: rem-calc(26);
+      font-size: rem-calc(20);
       font-weight: bold;
       line-height: 1.8rem;
     }
@@ -26,11 +29,29 @@
       margin-bottom: rem-calc(30);
     }
     p {
-      font-size: rem-calc(26);
+      font-size: rem-calc(20);
       font-weight: bold;
       line-height: 1.8rem;
     }
   }
 
+}
 
+//feature secondary test
+.feature-secondary-wrapper {
+  background-image: url("../img/rongo_test.jpg");
+  background-size: cover;
+  height: rem-calc(350);
+  display: flex;
+  align-items: center;
+  margin-bottom: rem-calc(30);
+  h1, h5, h4, p {
+    color: $white;
+  }
+  h1, h5, h4, {
+    font-family: $national_bold;
+  }
+  .feature-content {
+    padding-left: rem-calc(60);
+  }
 }

@@ -1,0 +1,46 @@
+.footer-wrapper {
+  background: $black;
+  color: $white;
+  padding: rem-calc(30) 0;
+
+  .footer-social {
+    p {
+      margin-bottom: 0px;
+      font-weight: bold;
+    }
+    a {
+      padding-left: 0px;
+    }
+    img {
+      width: rem-calc(40);
+    }
+  }
+
+  .footer-menu {
+    ul > li {
+      list-style-type: none;
+      font-weight: bold;
+    }
+    a {
+      color: $white;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+
+
+
+
+// copy right
+.footer-copyright-wrapper {
+  background: #2e2e2e;
+  color: $white;
+  padding: rem-calc(20) 0;
+  p {
+    font-size: rem-calc(14);
+    margin-bottom: 0px;
+  }
+}

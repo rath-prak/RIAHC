@@ -1,5 +1,5 @@
 //Base
-@import './components/typography/fonts';
+@import './components/base/fonts';
 
 // Components
 @import './components/navigation/main-navigation';
@@ -8,6 +8,8 @@
 @import './components/home-hero';
 @import './components/feature-section';
 
+//footer
+@import './components/footer/main-footer';
 
 //buttoms on home page
 .feature-btn {
