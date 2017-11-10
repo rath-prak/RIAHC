@@ -3,9 +3,32 @@
   color: $white;
   padding: rem-calc(30) 0;
 
+  .footer-logo {
+     text-align: center;
+  }
+
+  .footer-menu {
+    margin-top: rem-calc(40);
+    margin-left: 0px;
+
+    li {
+      list-style-type: none;
+      padding-top: rem-calc(20);
+    }
+    a {
+      color: $white;
+      font-weight: bold;
+      font-size: rem-calc(18);
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+
   .footer-social {
+    margin-top: rem-calc(40);
     p {
-      margin-bottom: 0px;
+      margin-bottom: rem-calc(10);
       font-weight: bold;
     }
     a {
@@ -14,33 +37,28 @@
     img {
       width: rem-calc(40);
     }
+    .social-icons {
+      list-style-type: none;
+      text-align: center;
+      margin: 0px;
+      li {
+        display: inline-block;
+        padding: rem-calc(5);
+      }
+    }
   }
 
-  .footer-menu {
-    ul > li {
-      list-style-type: none;
-      font-weight: bold;
-    }
-    a {
-      color: $white;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
+  .footer-copyright {
+    margin-top: rem-calc(30);
+    font-size: rem-calc(14);
   }
 }
 
-
-
-
-
-// copy right
-.footer-copyright-wrapper {
-  background: #2e2e2e;
-  color: $white;
-  padding: rem-calc(20) 0;
-  p {
-    font-size: rem-calc(14);
-    margin-bottom: 0px;
+@media screen and (min-width: rem-calc(800)) {
+  .footer-menu {
+    li {
+      display: inline-block;
+      padding: 0 rem-calc(20);
+    }
   }
 }
