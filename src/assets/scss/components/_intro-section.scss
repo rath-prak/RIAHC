@@ -1,0 +1,24 @@
+.intro-section {
+  background: #F2F5FA;
+  .intro-image {
+    img {
+      width: 100%;
+    }
+  }
+  .article-item {
+    width: calc(#{$global-width} / 2);
+    padding-top: rem-calc(60);
+    padding-left: rem-calc(60);
+    p {
+      font-family: $condense;
+      font-weight: 700;
+    }
+    p:first-of-type{
+      color: $brand_color;
+    }
+    h2 {
+      font-family: $heading;
+      line-height: 2.8rem;
+    }
+  }
+}

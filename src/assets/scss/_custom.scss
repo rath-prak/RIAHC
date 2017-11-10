@@ -5,6 +5,7 @@
 @import './components/navigation/main-navigation';
 
 // Home Page
+@import './components/intro-section';
 @import './components/home-hero';
 @import './components/feature-section';
 
@@ -12,14 +13,24 @@
 @import './components/footer/main-footer';
 
 //buttoms on home page
-.feature-btn {
- border: 1px solid $white;
+.primary-btn, .secondary-btn {
+ border: 1px solid $black;
  padding: rem-calc(10) rem-calc(20);
- color: $white;
  border-radius: 100px;
  cursor: pointer;
 }
-.feature-btn:hover {
+.primary-btn:hover {
+  background: $brand_color;
+  color: $white;
+  border: 1px solid $brand_color;
+}
+
+.secondary-btn {
+  border: 1px solid $white;
+  color: $white;
+}
+
+.secondary-btn:hover {
   background: $white;
   color: #cc0000;
 }

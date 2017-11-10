@@ -6,12 +6,19 @@
   .main-hero {
     display: flex;
     align-items: center;
+    flex-direction: column;
     height: 80vh;
+    justify-content: center;
+    text-align: center;
     h2 {
-      font-family: $main_heading;
+      font-family: $heading;
       color: $white;
       font-weight: 700;
-      line-height: 2.6rem;
+      line-height: 2.8rem;
+    }
+    h4 {
+      color: $white;
+      font-weight: bold;
     }
   }
 }

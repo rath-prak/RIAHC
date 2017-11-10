@@ -52,6 +52,36 @@
     font-family: $national_bold;
   }
   .feature-content {
-    padding-left: rem-calc(60);
+    // padding-left: rem-calc(60);
+    // width: calc(#{$global-width} / 2);
+  }
+}
+
+
+//aricle test test
+.article-section {
+  margin-top: rem-calc(60);
+  .article-content {
+    margin-top: rem-calc(70);
+    padding-right: rem-calc(30);
+    p:first-of-type {
+      font-family: $condense;
+      font-weight: 700;
+      color: $brand_color;
+    }
+    h1 {
+      font-family: $heading;
+    }
+    .read-more {
+      font-family: $condense;
+      font-weight: 700;
+      color: $brand_color;
+      text-transform: uppercase;
+    }
+  }
+  .article-image {
+    img {
+      width: 100%;
+    }
   }
 }
