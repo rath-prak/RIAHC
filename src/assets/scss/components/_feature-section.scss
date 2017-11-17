@@ -44,12 +44,12 @@
   height: rem-calc(350);
   display: flex;
   align-items: center;
-  margin-bottom: rem-calc(30);
-  h1, h5, h4, p {
+  // margin-bottom: rem-calc(30);
+  h1, h5, h3, p {
     color: $white;
   }
-  h1, h5, h4, {
-    font-family: $national_bold;
+  h1, h5, h3, {
+    font-family: $heading;
   }
   .feature-content {
     // padding-left: rem-calc(60);
