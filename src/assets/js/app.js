@@ -1,6 +1,9 @@
 import $ from 'jquery';
 import whatInput from 'what-input';
-import anime from 'animejs';
+import {TweenMax} from 'gsap';
+
+import overlayNav from './components/overlayNav'
+
 
 window.$ = $;
 
@@ -9,26 +12,7 @@ import Foundation from 'foundation-sites';
 // the line below
 //import './lib/foundation-explicit-pieces';
 
-
-var toggleBtn = document.querySelector('.toggle-nav');
-var toggleClose = document.querySelector('.toggle-close');
-
-toggleBtn.onclick = function(){
-    anime({
-      targets: '.overlay-nav',
-      translateY: 0,
-      duration: 4000,
-    });
-}
-
-toggleClose.onclick = function(){
-    anime({
-      targets: '.overlay-nav',
-      translateY: '-100%',
-      duration: 4000,
-    });
-}
-
+overlayNav();
 
 
 $(document).foundation();
