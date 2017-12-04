@@ -15,7 +15,7 @@
     align-items: center;
     .nav-logo {
       padding: rem-calc(15);
-      width: rem-calc(180);
+      width: rem-calc(200);
     }
     .toggle-nav {
       position: relative;
@@ -41,8 +41,9 @@
   ul{
     margin-left: 0;
     padding: rem-calc(30);
+    z-index: 100;
     li {
-      list-style: none;
+      list-style-type: none;
       text-align: center;
     }
     a {
@@ -74,7 +75,7 @@
     ul{
       margin-bottom: 0;
       li {
-        list-style: none;
+        list-style-type: none;
         text-align: center;
         display: inline-block;
         padding-left: rem-calc(30);
@@ -88,7 +89,7 @@
       }
     }
     .active {
-      display: initial;
+      display: inline;
     }
 
   }

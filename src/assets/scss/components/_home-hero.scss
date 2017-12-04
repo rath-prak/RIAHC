@@ -2,13 +2,10 @@
   background: url(../../assets/img/hero-test.jpg) no-repeat center center;
   background-size: cover;
   width: 100%;
+  height: 80vh;
 
   .main-hero {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    height: 80vh;
-    justify-content: center;
+    margin-top: 20vh;
     text-align: center;
     h2 {
       font-family: $heading;
