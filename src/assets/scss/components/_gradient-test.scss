@@ -1,0 +1,9 @@
+.gradient-test {
+  height: rem-calc(120);
+  width: 100%;
+  background: linear-gradient(-45deg,#ec5252,#6e1a52);
+  h4 {
+    margin-top: rem-calc(30);
+    color: $white;
+  }
+}

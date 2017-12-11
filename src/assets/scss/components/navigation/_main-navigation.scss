@@ -31,8 +31,9 @@
         a {
           color: $black;
           font-size: rem-calc(22);
-          font-weight: bold;
-          font-family: $condense;
+          // font-weight: bold;
+          // font-family: $condense;
+          font-family: $national_bold;
         }
       }
     }
@@ -82,10 +83,11 @@
       }
       a {
         color: $black;
-        font-size: rem-calc(14);
-        font-family: $condense;
+        font-size: rem-calc(18);
+        // font-family: $condense;
+        font-family: $national_bold;
         font-weight: 700;
-        text-transform: uppercase;
+        // text-transform: uppercase;
       }
     }
     .active {
@@ -115,7 +117,6 @@
       }
       a {
         text-decoration: none;
-        // color: $brand_color;
         color: $white;
         font-family: $national_bold;
         font-size: rem-calc(40);

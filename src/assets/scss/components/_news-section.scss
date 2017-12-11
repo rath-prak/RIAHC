@@ -1,0 +1,36 @@
+.news-section {
+  margin-bottom: rem-calc(60);
+  h3 {
+    margin-top: rem-calc(15);
+  }
+}
+
+.news-item {
+  padding-left: rem-calc(20);
+  border-left: rem-calc(4) solid #0B5E9A;
+
+}
+
+.news-highlight-image {
+  overflow: hidden;
+  position: relative;
+  #image-blue-bar {
+    position: absolute;
+    bottom: 0;
+    height: rem-calc(10);
+    width: 100%;
+    background: #0B5E9A;
+    z-index: 10;
+  }
+}
+
+@media screen and (min-width: 40em) {
+  .feature-light-article {
+    padding-right: rem-calc(30)
+  }
+  .news-section {
+    h3 {
+      margin-top: rem-calc(0);
+    }
+  }
+}
