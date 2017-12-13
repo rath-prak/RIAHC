@@ -1,0 +1,19 @@
+.about-wrapper {
+  margin-top: rem-calc(30);
+}
+
+.about-intro {
+  display: flex;
+  align-items: center;
+  margin-top: rem-calc(-60);
+  .about-blurb {
+    background: $gradient;
+    padding: rem-calc(30);
+    h3, p {
+      color: $white;
+    }
+    p {
+      font-size: rem-calc(18);
+    }
+  }
+}
