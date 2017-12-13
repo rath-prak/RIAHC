@@ -1,16 +1,29 @@
 .intro-section {
   margin-top: rem-calc(30);
-  // background: #F2F5FA;
   .intro-box {
-    height: rem-calc(300);
+    .intro-box-img {
+      height: rem-calc(220);
+      overflow: hidden;
+      img {
+        width: 100%;
+        height: rem-calc(220);
+      }
+    }
+    .intro-box-text {
+      padding: rem-calc(20);
+      h4, p {
+        color: $white;
+      }
+    }
   }
+
   .investment {
-    background: green;
+    background: #7b2452;
   }
   .about-us {
-    background: yellow;
+    background: #B83E54;
   }
   .private-equity {
-    background: blue;
+    background: $brand_color
   }
 }

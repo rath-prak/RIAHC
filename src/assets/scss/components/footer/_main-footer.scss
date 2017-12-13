@@ -1,5 +1,5 @@
 .footer-wrapper {
-  background: $black;
+  background: #4E4E4E;
   color: $white;
   padding: rem-calc(30) 0;
 
@@ -18,7 +18,8 @@
     a {
       color: $white;
       font-weight: bold;
-      font-size: rem-calc(18);
+      font-size: rem-calc(16);
+      font-family: $bold;
     }
     a:hover {
       text-decoration: underline;
@@ -51,6 +52,9 @@
   .footer-copyright {
     margin-top: rem-calc(30);
     font-size: rem-calc(14);
+    p {
+      color: $white;
+    }
   }
 }
 

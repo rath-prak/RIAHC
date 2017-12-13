@@ -31,9 +31,7 @@
         a {
           color: $black;
           font-size: rem-calc(22);
-          // font-weight: bold;
-          // font-family: $condense;
-          font-family: $national_bold;
+          font-family: $bold;
         }
       }
     }
@@ -83,9 +81,9 @@
       }
       a {
         color: $black;
-        font-size: rem-calc(18);
+        font-size: rem-calc(16);
         // font-family: $condense;
-        font-family: $national_bold;
+        font-family: $bold;
         font-weight: 700;
         // text-transform: uppercase;
       }
@@ -118,7 +116,7 @@
       a {
         text-decoration: none;
         color: $white;
-        font-family: $national_bold;
+        font-family: $bold;
         font-size: rem-calc(40);
       }
     }

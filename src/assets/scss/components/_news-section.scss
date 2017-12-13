@@ -1,26 +1,52 @@
+
 .news-section {
   margin-bottom: rem-calc(60);
   h3 {
     margin-top: rem-calc(15);
   }
+  h3:hover {
+    color: #3f3f3f;
+  }
+}
+
+.news-section-heading {
+  margin-bottom: rem-calc(30);
 }
 
 .news-item {
   padding-left: rem-calc(20);
-  border-left: rem-calc(4) solid #0B5E9A;
+  border-left: rem-calc(4) solid $brand_color;
+}
+.news-item:hover {
+  background: #f1f1f1;
+}
 
+.image-fade:hover {
+    opacity: 0.9;
 }
 
 .news-highlight-image {
   overflow: hidden;
   position: relative;
-  #image-blue-bar {
+  height: rem-calc(260);
+  img {
+    max-width: none !important;
+    overflow: hidden;
+    height: 100%;
+  }
+  #image-solid-bar {
     position: absolute;
     bottom: 0;
-    height: rem-calc(10);
+    height: rem-calc(8);
     width: 100%;
-    background: #0B5E9A;
+    background: $gradient;
     z-index: 10;
+  }
+}
+
+.view-all {
+  a {
+    color: $brand_color;
   }
 }
 
