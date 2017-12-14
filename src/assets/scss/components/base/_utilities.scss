@@ -45,3 +45,18 @@
   height: rem-calc(6);
   background: $gradient;
 }
+
+// breadcumbs
+.breadcrumb-container {
+  background: lighten($light-gray, 5%);
+  .breadcrumbs {
+    margin-top: rem-calc(0);
+    padding: rem-calc(15) 0;
+    li {
+      font-weight: bold;
+    }
+    li:after {
+      color: $black;
+    }
+  }
+}

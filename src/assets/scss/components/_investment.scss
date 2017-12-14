@@ -1,0 +1,13 @@
+.investment-wrapper {
+  margin: rem-calc(30) 0;
+  .portfolio-item-text {
+    padding: rem-calc(30);
+    h3, p {
+      color: $white;
+    }
+  }
+  .properties {
+    background: $gradient;
+  }
+
+}
