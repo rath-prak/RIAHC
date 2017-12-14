@@ -1,19 +1,32 @@
 .about-wrapper {
   margin-top: rem-calc(30);
-}
 
-.about-intro {
-  display: flex;
-  align-items: center;
-  margin-top: rem-calc(-60);
-  .about-blurb {
-    background: $gradient;
-    padding: rem-calc(30);
-    h3, p {
-      color: $white;
+  .director-profiles {
+    margin: rem-calc(30) 0 rem-calc(60);
+    .profile-img {
+      overflow: hidden;
+      position: relative;
+      img {
+        width:100%;
+      }
     }
-    p {
-      font-size: rem-calc(18);
+    .image-solid-bar {
+      position: absolute;
+      bottom: 0;
+      height: rem-calc(8);
+      width: 100%;
+      background: $brand_color;
+      z-index: 10;
+    }
+    .profile {
+      h6 {
+        margin-top: rem-calc(10);
+        span {
+          font-family: $medium;
+          text-transform: uppercase;
+        }
+      }
     }
   }
+
 }

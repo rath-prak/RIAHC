@@ -1,0 +1,47 @@
+//buttoms on home page
+.primary-btn, .secondary-btn {
+ border: 1px solid $black;
+ padding: rem-calc(10) rem-calc(20);
+ border-radius: 100px;
+ cursor: pointer;
+ font-size: rem-calc(13);
+}
+.primary-btn:hover {
+  background: $brand_color;
+  color: $white;
+  border: 1px solid $brand_color;
+}
+
+.secondary-btn {
+  border: 1px solid $white;
+  color: $white;
+}
+
+.secondary-btn:hover {
+  background: $white;
+  color: inherit;
+}
+
+// full width imgage
+.full-width-image {
+  width: 100%;
+  height: rem-calc(150);
+  overflow: hidden;
+  img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: rem-calc(660)) {
+  .full-width-image {
+    height: rem-calc(300);
+  }
+}
+
+// Horizontal bar with gradient
+.horizontal-bar {
+  margin: rem-calc(20) auto;
+  width: rem-calc(100);
+  height: rem-calc(6);
+  background: $gradient;
+}

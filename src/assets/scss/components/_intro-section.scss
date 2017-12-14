@@ -12,12 +12,6 @@
       font-size: rem-calc(20);
       color: darken($dark-gray, 20);
     }
-    .horizontal-bar {
-      margin: rem-calc(20) auto;
-      width: rem-calc(100);
-      height: rem-calc(6);
-      background: $gradient;
-    }
   }
 
   .intro-box {

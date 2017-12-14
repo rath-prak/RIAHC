@@ -1,5 +1,7 @@
 //Base
 @import './components/base/fonts';
+@import './components/base/typography';
+@import './components/base/utilities';
 
 // Components
 @import './components/navigation/main-navigation';
@@ -19,37 +21,4 @@
 
 .lt-ie10{
 @include foundation-grid;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: $bold;
-  color: $color-text-primary
-}
-
-p {
-  color: $color-text-primary;
-}
-
-//buttoms on home page
-.primary-btn, .secondary-btn {
- border: 1px solid $black;
- padding: rem-calc(10) rem-calc(20);
- border-radius: 100px;
- cursor: pointer;
- font-size: rem-calc(13);
-}
-.primary-btn:hover {
-  background: $brand_color;
-  color: $white;
-  border: 1px solid $brand_color;
-}
-
-.secondary-btn {
-  border: 1px solid $white;
-  color: $white;
-}
-
-.secondary-btn:hover {
-  background: $white;
-  color: inherit;
 }
