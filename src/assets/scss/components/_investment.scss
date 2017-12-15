@@ -6,8 +6,40 @@
       color: $white;
     }
   }
-  .properties {
-    background: $gradient;
-  }
 
+
+}
+
+.portfolio-item {
+  margin-bottom: rem-calc(30);
+  .portfolio-box-img {
+    height: rem-calc(220);
+    overflow: hidden;
+    img {
+      width: 100%;
+      height: rem-calc(220);
+    }
+  }
+  .portfolio-box-text {
+    padding: rem-calc(20);
+    h4, p {
+      color: $white;
+    }
+  }
+}
+
+.properties {
+  background: #792751;
+}
+
+.bucket01 {
+  background: darken(#792751, 10);
+}
+
+.bucket02 {
+  background: darken(#792751, 15);
+}
+
+.bucket03{
+  background: darken(#792751, 20);
 }

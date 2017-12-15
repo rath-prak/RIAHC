@@ -121,3 +121,10 @@
       }
     }
   }
+
+// button animation
+  .portfolio-btn-underline {
+    height: rem-calc(3);
+    transform: scaleX(0);
+    background: $brand_color;
+  }
