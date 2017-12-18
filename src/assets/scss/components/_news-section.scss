@@ -1,6 +1,9 @@
-
+.news-section-wrapper {
+  background: #f6f6f6;
+  padding: rem-calc(20) 0;
+}
 .news-section {
-  margin-bottom: rem-calc(60);
+  margin-bottom: rem-calc(30);
   h3 {
     margin-top: rem-calc(15);
   }
@@ -13,12 +16,16 @@
   margin-bottom: rem-calc(30);
 }
 
+.feature-article {
+  margin-bottom: rem-calc(30);
+}
+
 .news-item {
   padding-left: rem-calc(20);
   border-left: rem-calc(4) solid $brand_color;
 }
 .news-item:hover {
-  background: #f1f1f1;
+  background: #e9e9e9;
 }
 
 .image-fade:hover {
@@ -51,8 +58,9 @@
 }
 
 @media screen and (min-width: 40em) {
-  .feature-light-article {
-    padding-right: rem-calc(30)
+  .feature-article {
+    padding-right: rem-calc(30);
+    margin-bottom: rem-calc(0);
   }
   .news-section {
     h3 {

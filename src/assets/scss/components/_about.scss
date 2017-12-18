@@ -15,7 +15,7 @@
       bottom: 0;
       height: rem-calc(8);
       width: 100%;
-      background: $brand_color;
+      background: $gradient;
       z-index: 10;
     }
     .profile {
@@ -32,3 +32,6 @@
 }
 
 // Profiles - biography
+.biography {
+  padding-left: rem-calc(30);
+}

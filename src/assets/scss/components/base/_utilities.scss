@@ -39,11 +39,16 @@
 }
 
 // Horizontal bar with gradient
-.horizontal-bar {
-  margin: rem-calc(20) auto;
+
+.horizontal-bar-right, .horizontal-bar-center {
   width: rem-calc(100);
   height: rem-calc(6);
   background: $gradient;
+  margin: rem-calc(30) 0;
+}
+
+.horizontal-bar-center {
+  margin: rem-calc(30) auto;
 }
 
 // breadcumbs
@@ -52,11 +57,19 @@
   .breadcrumbs {
     margin-top: rem-calc(0);
     padding: rem-calc(15) 0;
+    margin-bottom: 0;
+
     li {
       font-weight: bold;
+      text-transform: capitalize;
+      font-size: rem-calc(14);
+      a {
+        color: #545454;
+      }
     }
     li:after {
-      color: $black;
+      color: #545454;
     }
+
   }
 }

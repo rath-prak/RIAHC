@@ -1,10 +1,13 @@
 .footer-wrapper {
-  background: #4E4E4E;
+  background: #2a2a2a;
   color: $white;
   padding: rem-calc(30) 0;
 
   .footer-logo {
      text-align: center;
+     img {
+       width: rem-calc(150);
+     }
   }
 
   .footer-menu {
@@ -13,44 +16,43 @@
 
     li {
       list-style-type: none;
-      padding-top: rem-calc(20);
+      padding-top: rem-calc(10);
     }
     a {
       color: $white;
-      font-weight: bold;
       font-size: rem-calc(16);
-      font-family: $bold;
+      font-family: $medium;
     }
     a:hover {
       text-decoration: underline;
     }
   }
 
-  .footer-social {
-    margin-top: rem-calc(40);
-    p {
-      margin-bottom: rem-calc(10);
-      font-weight: bold;
-    }
-    a {
-      padding-left: 0px;
-    }
-    img {
-      width: rem-calc(40);
-    }
-    .social-icons {
-      list-style-type: none;
-      text-align: center;
-      margin: 0px;
-      li {
-        display: inline-block;
-        padding: rem-calc(5);
-      }
-    }
-  }
+  // .footer-social {
+  //   margin-top: rem-calc(40);
+  //   p {
+  //     margin-bottom: rem-calc(10);
+  //     font-weight: bold;
+  //   }
+  //   a {
+  //     padding-left: 0px;
+  //   }
+  //   img {
+  //     width: rem-calc(40);
+  //   }
+  //   .social-icons {
+  //     list-style-type: none;
+  //     text-align: center;
+  //     margin: 0px;
+  //     li {
+  //       display: inline-block;
+  //       padding: rem-calc(5);
+  //     }
+  //   }
+  // }
 
   .footer-copyright {
-    margin-top: rem-calc(30);
+    margin-top: rem-calc(10);
     font-size: rem-calc(14);
     p {
       color: $white;
@@ -62,7 +64,10 @@
   .footer-menu {
     li {
       display: inline-block;
-      padding: 0 rem-calc(20);
+      padding: 0 rem-calc(10);
+    }
+    a {
+      font-size: rem-calc(10);
     }
   }
 }

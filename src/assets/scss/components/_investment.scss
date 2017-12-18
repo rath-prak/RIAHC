@@ -1,17 +1,16 @@
 .investment-wrapper {
   margin: rem-calc(30) 0;
-  .portfolio-item-text {
-    padding: rem-calc(30);
-    h3, p {
-      color: $white;
-    }
+  h1 {
+    font-family: $medium;
   }
+}
 
-
+.investment-intro {
+  margin-bottom: rem-calc(30);
 }
 
 .portfolio-item {
-  margin-bottom: rem-calc(30);
+  margin-bottom: rem-calc(40);
   .portfolio-box-img {
     height: rem-calc(220);
     overflow: hidden;

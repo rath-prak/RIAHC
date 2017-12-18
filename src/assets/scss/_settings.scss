@@ -65,12 +65,14 @@
 // 1. Global
 // ---------
 
-$brand_color: #A13729;;
+$brand_color: #A13729;
 $color-text-primary: #141823;
-$gradient: linear-gradient(-45deg, #ec5252, #6e1a52);
+$gradient: linear-gradient(-45deg, #da7c6f, #A13729);
+
+$border-radius: rem-calc(3);
 
 $global-font-size: 100%;
-$global-width: rem-calc(1200);
+$global-width: rem-calc(1100);
 $global-lineheight: 1.5;
 $foundation-palette: (
   primary: #1779ba,
@@ -863,8 +865,8 @@ $xy-grid: true;
 $grid-container: $global-width;
 $grid-columns: 12;
 $grid-margin-gutters: (
-  small: 20px,
-  medium: 30px
+  small: 10px,
+  medium: 15px
 );
 $grid-padding-gutters: $grid-margin-gutters;
 $grid-container-padding: $grid-padding-gutters;

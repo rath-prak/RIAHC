@@ -1,0 +1,15 @@
+.contact {
+  min-height: 80vh;
+  margin: rem-calc(60) 0;
+  h2 {
+    margin-top: rem-calc(40);
+  }
+}
+.contact-us-form {
+  input {
+    border-radius: $border-radius;
+  }
+  .primary-btn {
+    width: rem-calc(100);
+  }
+}

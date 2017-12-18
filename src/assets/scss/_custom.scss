@@ -11,7 +11,6 @@
 @import './components/intro-section';
 @import './components/business-links';
 @import './components/news-section';
-@import './components/gradient-test';
 
 // about us
 @import './components/about';
@@ -24,6 +23,9 @@
 
 //footer
 @import './components/footer/main-footer';
+
+//contact
+@import './components/contact';
 
 .lt-ie10{
 @include foundation-grid;
