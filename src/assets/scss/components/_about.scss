@@ -19,12 +19,18 @@
       z-index: 10;
     }
     .profile {
+      margin-bottom: rem-calc(30);
       h6 {
-        margin-top: rem-calc(10);
+        margin: rem-calc(10) 0 0 0;
         span {
           font-family: $medium;
           text-transform: uppercase;
         }
+      }
+      .read-profile {
+        margin: 0;
+        color: inherit;
+        font-style: italic;
       }
     }
   }
