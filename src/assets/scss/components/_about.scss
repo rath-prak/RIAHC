@@ -38,6 +38,8 @@
 }
 
 // Profiles - biography
-.biography {
-  padding-left: rem-calc(30);
+@media screen and (min-width: rem-calc(600)) {
+  .biography {
+    padding-left: rem-calc(30);
+  }
 }

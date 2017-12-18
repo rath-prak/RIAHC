@@ -5,6 +5,7 @@
  border-radius: 100px;
  cursor: pointer;
  font-size: rem-calc(13);
+ transition: background 0.25s;
 }
 .primary-btn:hover {
   background: $brand_color;

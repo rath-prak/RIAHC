@@ -17,24 +17,6 @@
       width: rem-calc(200);
       z-index: 200;
     }
-    .toggle-nav {
-      position: relative;
-      margin-right: rem-calc(15);
-      z-index: 10;
-      width: rem-calc(90);
-      height: rem-calc(40);
-      overflow: hidden;
-      span {
-        position: absolute;
-        width: rem-calc(210);
-        line-height: rem-calc(40);
-        a {
-          color: $black;
-          font-size: rem-calc(22);
-          font-family: $bold;
-        }
-      }
-    }
   }
 
   ul{
@@ -56,7 +38,7 @@
 
 }
 /* Medium and up */
-@media screen and (min-width: rem-calc(850)) {
+@media screen and (min-width: rem-calc(1025)) {
   .navbar {
     display: flex;
     justify-content: center;
@@ -82,10 +64,8 @@
       a {
         color: $black;
         font-size: rem-calc(16);
-        // font-family: $condense;
         font-family: $bold;
         font-weight: 700;
-        // text-transform: uppercase;
       }
     }
     .active {

@@ -10,8 +10,11 @@ window.$ = $;
 
 import Foundation from 'foundation-sites';
 
-//navigation menu animation
-// menuBtnAnimation();
+overlayNav();
+
+$( document ).ready(function() {
+    menuBtnAnimation();
+});
 
 // If you want to pick and choose which modules to include, comment out the above and uncomment
 // the line below

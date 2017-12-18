@@ -1,8 +1,9 @@
 const menuBtnAnimation = () => {
   let $portfolioBtn = $('.portfolio-btn');
-  let $portfolioBtnUnderline = $('.portfolio-btn-underline');
 
   $portfolioBtn.mouseover(function(){
+    let $portfolioBtnUnderline = $( this ).next( '.portfolio-btn-underline' );
+
     TweenMax.to($portfolioBtnUnderline, 0.5, {
       scaleX:1,
       ease: Power4.easeInOut,
@@ -10,6 +11,8 @@ const menuBtnAnimation = () => {
   });
 
   $portfolioBtn.mouseleave(function(){
+    let $portfolioBtnUnderline = $( this ).next( '.portfolio-btn-underline' );
+
     TweenMax.to($portfolioBtnUnderline, 0.5, {
       scaleX:0,
       ease: Power4.easeInOut,

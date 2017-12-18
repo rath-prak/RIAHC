@@ -1,18 +1,27 @@
 const overlayNav = () => {
-  let overlayNav = document.querySelector('.overlay-nav');
-  let toggleNav = document.querySelector('.toggle-nav');
-  let toggleSlide = document.querySelector('.toggle-slide');
+  document.addEventListener('DOMContentLoaded', function(){
+    let checkbox = document.querySelector('#nav-toggle');
+    let checkboxLabel = document.querySelector('#nav-toggle-label');
 
-  const menuOpen = new TimelineMax({ paused:true, reversed:true }),
-        menuClose = new TimelineMax({ paused:true, reversed:true })
+    function removeActive(){
+      checkboxLabel.classList.remove('nav-toggle-label--active');
+    }
 
-  menuOpen.to(overlayNav, .5, { opacity: 1, ease: Power2.easeOut })
-  menuClose.to(toggleSlide, .5, { x: -100, ease: Power2.easeOut })
+    checkbox.onclick = function(){
+      if (checkbox.checked){
+        checkboxLabel.classList.add('nav-toggle-label--active');
+      } else{
+        removeActive();
+      }
+    };
 
-  toggleNav.addEventListener('click', () => {
-    menuOpen.reversed() ? menuOpen.restart() : menuOpen.reverse();
-    menuClose.reversed() ? menuClose.restart() : menuClose.reverse();
-  })
+    let overlayMenu = document.querySelector('.overlay-menu');
+    overlayMenu.onclick = function(){
+      removeActive();
+      checkbox.checked = false;
+    };
+
+  });
 }
 
 export default overlayNav

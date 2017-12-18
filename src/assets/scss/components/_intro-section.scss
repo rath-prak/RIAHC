@@ -34,12 +34,21 @@
 
   .investment {
     background: #7b2452;
+    .secondary-btn:hover {
+      color: #7b2452;
+    }
   }
   .about-us {
     background: #C3463C;
+    .secondary-btn:hover {
+      color: #C3463C;
+    }
   }
   .private-equity {
-    background: $brand_color
+    background: $brand_color;
+    .secondary-btn:hover {
+      color: $brand_color;
+    }
   }
 }
 
