@@ -16,8 +16,12 @@
   margin-bottom: rem-calc(30);
 }
 
-.feature-article {
+.feature-news-item {
   margin-bottom: rem-calc(30);
+  .post-date {
+    font-size: rem-calc(18);
+    margin-bottom: rem-calc(15);
+  }
 }
 
 .news-item {
@@ -58,7 +62,7 @@
 }
 
 @media screen and (min-width: 40em) {
-  .feature-article, .news-item-article {
+  .feature-article {
     padding-right: rem-calc(30);
     margin-bottom: rem-calc(0);
   }
@@ -66,6 +70,13 @@
     h3 {
       margin-top: rem-calc(0);
     }
+  }
+}
+
+@media screen and (min-width: rem-calc(1025)){
+  .news-item-article {
+    padding-right: rem-calc(30);
+    margin-bottom: rem-calc(0);
   }
 }
 

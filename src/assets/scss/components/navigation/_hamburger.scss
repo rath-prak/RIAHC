@@ -1,5 +1,4 @@
-.overlay-menu-nav {
-  position: relative;
+
   #nav-toggle {
     position: absolute;
     clip: rect(0, 0, 0, 0);
@@ -83,13 +82,11 @@
       top: 50%;
     }
   }
-}
+
 
 @media screen and (min-width: rem-calc(950)) {
-  .overlay-menu-nav {
-    #nav-toggle-label {
-      display: none;
-    }
+  #nav-toggle-label {
+    display: none;
   }
 }
 
