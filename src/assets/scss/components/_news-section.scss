@@ -58,7 +58,7 @@
 }
 
 @media screen and (min-width: 40em) {
-  .feature-article {
+  .feature-article, .news-item-article {
     padding-right: rem-calc(30);
     margin-bottom: rem-calc(0);
   }
@@ -87,7 +87,7 @@
 }
 
 // Single news privew (thumb)
-//-----------------
+//---------------------------
 
 .news-thumb-image {
   overflow: hidden;
@@ -114,4 +114,30 @@
 
 .news-article-preview-title {
   margin-bottom: rem-calc(30);
+}
+
+// Main news article
+//------------------
+.news-item-article {
+  margin-bottom: rem-calc(30);
+  h3 {
+    margin-bottom: 0;
+  }
+  .post-date {
+    color: darken($dark-gray, 10);
+    font-size: rem-calc(16);
+    font-style: italic;
+    margin-bottom: rem-calc(30);
+  }
+  .image-caption {
+    font-size: rem-calc(14);
+    color: darken($dark-gray, 10);
+    margin-top: rem-calc(5);
+  }
+}
+
+.news-item-side-section {
+  .view-all {
+    color: $brand_color;
+  }
 }
