@@ -68,3 +68,50 @@
     }
   }
 }
+
+// All news page
+//--------------
+
+.news-wrapper {
+  margin-top: rem-calc(30);
+  h1 {
+    margin-bottom: rem-calc(20);
+  }
+
+  .pagination-footer {
+    margin-bottom: rem-calc(30);
+  }
+  .pagination .current {
+    background: $brand_color;
+  }
+}
+
+// Single news privew (thumb)
+//-----------------
+
+.news-thumb-image {
+  overflow: hidden;
+  position: relative;
+  img {
+    width:100%;
+  }
+}
+.image-solid-bar {
+  position: absolute;
+  bottom: 0;
+  height: rem-calc(8);
+  width: 100%;
+  background: $gradient;
+  z-index: 10;
+}
+
+.post-date {
+  font-size: rem-calc(14);
+  color: darken($dark-gray, 20);
+  margin: rem-calc(5) 0 rem-calc(0);
+  font-style: italic;
+}
+
+.news-article-preview-title {
+  margin-bottom: rem-calc(30);
+}
