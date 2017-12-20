@@ -1,16 +1,29 @@
 //buttoms on home page
-.primary-btn, .secondary-btn {
- border: 1px solid $black;
+.primary-btn {
+  background: $brand_color;
  padding: rem-calc(10) rem-calc(20);
  border-radius: 100px;
  cursor: pointer;
  font-size: rem-calc(13);
  transition: background 0.25s;
+ color: $white;
+  border: 1px solid $brand_color;
+  min-width: rem-calc(100);
 }
 .primary-btn:hover {
-  background: $brand_color;
+  background: darken($brand_color, 10);
   color: $white;
-  border: 1px solid $brand_color;
+  border: 1px solid darken($brand_color, 10);
+}
+
+.secondary-btn {
+ padding: rem-calc(10) rem-calc(20);
+ border-radius: 100px;
+ cursor: pointer;
+ font-size: rem-calc(13);
+ transition: background 0.25s;
+ color: $white;
+ min-width: rem-calc(100);
 }
 
 .secondary-btn {
