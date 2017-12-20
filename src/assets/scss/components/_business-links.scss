@@ -9,5 +9,8 @@
     display: flex;
     align-items: center;
     padding: rem-calc(5);
+    img {
+      width: 100%;
+    }
   }
 }
