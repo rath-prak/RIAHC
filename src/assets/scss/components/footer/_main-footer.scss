@@ -28,28 +28,14 @@
     }
   }
 
-  // .footer-social {
-  //   margin-top: rem-calc(40);
-  //   p {
-  //     margin-bottom: rem-calc(10);
-  //     font-weight: bold;
-  //   }
-  //   a {
-  //     padding-left: 0px;
-  //   }
-  //   img {
-  //     width: rem-calc(40);
-  //   }
-  //   .social-icons {
-  //     list-style-type: none;
-  //     text-align: center;
-  //     margin: 0px;
-  //     li {
-  //       display: inline-block;
-  //       padding: rem-calc(5);
-  //     }
-  //   }
-  // }
+  .rongowhakaata-link {
+    a {
+      text-transform: uppercase;
+      font-size: rem-calc(22);
+      font-family: $bold;
+      color: lighten($brand_color, 10);
+    }
+  }
 
   .footer-copyright {
     margin-top: rem-calc(10);
