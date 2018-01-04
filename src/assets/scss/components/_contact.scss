@@ -1,5 +1,5 @@
 .contact {
-  .content-wrapper {
+  .contact-form {
     background: #e0e0e0;
     padding: rem-calc(60);
   }
@@ -13,5 +13,15 @@
   .primary-btn {
     width: rem-calc(110);
     border-radius: rem-calc(50);
+  }
+}
+
+.contact-details {
+  p {
+    // font-size: rem-calc(16);
+    margin: 0;
+  }
+  p:nth-of-type(3) {
+    margin-top: rem-calc(30);
   }
 }
