@@ -4,8 +4,6 @@
     margin-top: rem-calc(30);
   }
   .resource-item {
-    // border-top: rem-calc(1)solid $light-gray;
-    // border-bottom: rem-calc(1)solid $light-gray;
     margin-bottom: rem-calc(30);
     span {
       font-size: rem-calc(16);
@@ -35,6 +33,13 @@
 
       }
     }
+  }
+
+  .code-of-ethics {
+    padding: rem-calc(30);
+    background: lighten($light-gray, 5);
+    margin: rem-calc(30) 0;
+    user-select: none;
   }
 
 }
